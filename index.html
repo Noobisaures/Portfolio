@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noobisaures - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <button id="dark-mode-toggle">🌙</button>
+  <header class="header">
+    <h1>Noobisaures</h1>
+    <p>Frontend Developer | React Enthusiast</p>
+  </header>
+
+  <main class="main">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a frontend developer passionate about building beautiful and responsive web applications using React and modern tools.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="filter-buttons">
+        <button class="filter" data-category="all">All</button>
+        <button class="filter" data-category="web">Web</button>
+        <button class="filter" data-category="design">Design</button>
+      </div>
+      <div class="project" data-category="web">
+        <h3>Project One</h3>
+        <p>Description</p>
+      </div>
+      <div class="project" data-category="design">
+        <h3>Project Two</h3>
+        <p>Another cool project description.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact">
+        <a href="https://github.com/noobisaures" target="_blank">GitHub</a>
+        <p>Email: your.noobisaures@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Noobisaures . All rights reserved.
+  </footer>
+</body>
+</html>
